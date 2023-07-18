@@ -12,13 +12,13 @@
 # else:
 #     print("byebye")
 
-username = "KarnSakulngam"
+# username = "KarnSakulngam"
 
-password = "123ab"
+# password = "123ab"
 
-userLogin = input("Enter your username: ")
+# userLogin = input("Enter your username: ")
 
-passLogin = input("Enter your password: ")
+# passLogin = input("Enter your password: ")
 
 # if userLogin == username and passLogin == password:
 #     print("Success")
@@ -55,3 +55,18 @@ passLogin = input("Enter your password: ")
 
 # while True:
 #     print("hello")
+
+# for x in range(10):
+#     print(x)
+
+# x = 10
+# print(list(range(x)))
+
+# num = (input("enter number"))
+
+# for x in range(12):
+#     print(num, "x", x+1, "=", num*(x+1))
+
+# for x in range(12):
+#     for y in range(12):
+#         print(x+1, "x", y+1, "=", (x+1)*(y+1))
