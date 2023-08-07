@@ -9,7 +9,7 @@ class PoseTypeCollection:
         self.writer.writerow(self.header)
 
     def log(self,landmarks):
-        datalist = ["A", landmarks[12].x*640, landmarks[12].y*480, landmarks[11].x*640,landmarks[11].y*480,landmarks[]]
+        datalist = ["A", landmarks[12].x*640, landmarks[12].y*480, landmarks[11].x*640,landmarks[11].y*480,landmarks[14].x*640,landmarks[14].y*480,landmarks[13].x*640,landmarks[13].y*480,landmarks[16].x*640,landmarks[16].y*480,landmarks[15].x*640,landmarks[15].y*480,landmarks[24].x*640,landmarks[24].y*480,landmarks[23].x*640,landmarks[23].y*480,landmarks[26].x*640,landmarks[26].y*480,landmarks[25].x*640,landmarks[25].y*480,landmarks[28].x*640,landmarks[28].y*480,landmarks[27].x*640,landmarks[27].y*480,]
 
         self.writer.writerow(datalist)
 
